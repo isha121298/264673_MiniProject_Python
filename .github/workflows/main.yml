@@ -14,9 +14,6 @@ jobs:
       with:
         python-version: '3.7'
         architecture: 'x64'
-    - name: Install system dependencies
-      run: sudo apt-get install python3-tk tk tk-dev tcl
       # ^^^ not sure, which pkgs are necessary...
     - name: Testing tkinter import
-      run: |
-           python main1.py
+      run: main.py
