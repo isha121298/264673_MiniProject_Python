@@ -19,5 +19,4 @@ jobs:
       # ^^^ not sure, which pkgs are necessary...
     - name: Testing tkinter import
       run: |
-        printf 'import tkinter\ntkinter._test()\n' > main1.py
-        python main1.py
+           python main1.py
