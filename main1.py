@@ -8,10 +8,10 @@ def start_main_page():
             from files_extra import animals
             animals.main()
         elif args == 2:
-            from file1 import colours
+            from files_extra import colours
             colours.main()
         elif args == 3:
-            from file1 import shapes
+            from files_extra import shapes
             shapes.main()
     def option():
 
@@ -32,13 +32,13 @@ def start_main_page():
 
     main_window = Tk()
 
-    main_window.geometry("500x500+500+150")
+    main_window.geometry("700x700+500+150")
     main_window.resizable(0, 0)
     main_window.title("Guess the Word")
     main_window.configure(background="#e6fff5")
     
 
-    img1 = PhotoImage(file="")
+    img1 = PhotoImage(file="C://Users/HP/Desktop/Mini Project Python/264673_MiniProject_Python/backarrow.png")
 
     lab_img = Label(
         main_window,

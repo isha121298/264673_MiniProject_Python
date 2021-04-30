@@ -55,11 +55,11 @@ def main():
             ans_lab.configure(text='Not enough points')
 
     my_window = Tk()
-    my_window.geometry("500x500+500+150")
+    my_window.geometry("700x700+500+150")
     my_window.resizable(0, 0)
     my_window.title("Guest the Word Game")
     my_window.configure(background="#e6fff5")
-    img1 = PhotoImage(file="")
+    img1 = PhotoImage(file="C://Users/HP/Desktop/Mini Project Python/264673_MiniProject_Python/backarrow.png")
 
     lab_img1 = Button(
         my_window,
